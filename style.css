@@ -1,0 +1,81 @@
+body {
+    background-color: beige;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+.calculator {
+    text-align: center;
+    background-color: #CEEDC7;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.button-format {
+    height: 40px;
+    text-align: center;
+    border-color: beige;
+    border-style: solid;
+    background-color: #CEEDC7;
+}
+
+.button-format:hover {
+    background-color: #86C8BC;
+}
+
+.clear-button {
+    grid-area: clear-button;
+}
+
+.prev-shower {
+    height: 2rem;
+    width: 400px;
+    text-align: right;
+    
+}
+
+.num-button1 {
+    grid-area: num-button1;
+}
+
+.num-button-container {
+    display: grid;
+    grid-area: numerics;
+    grid-template-areas:
+        "num-button num-button num-button"
+        "num-button num-button num-button"
+        "num-button num-button num-button"
+        "num-button1 num-button1 num-button1 ";
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 0px;
+    column-gap: 0px;
+}
+
+.calculator-buttons {
+    display: grid;
+    width: 450 px;
+    height: 450 px;
+    grid-template-areas:
+        "clear-button clear-button backspace-button divide-button"
+        "numerics numerics numerics multiply-button"
+        "numerics numerics numerics minus-button"
+        "numerics numerics numerics plus-button"
+        "numerics numerics numerics equal-button";
+    grid-template-columns: 100px 100px 100px 100px;
+    row-gap: 0px;
+    column-gap: 0px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #3C6255;
+    color: white;
+    text-align: center;
+ }
