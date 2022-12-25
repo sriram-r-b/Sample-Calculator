@@ -1,6 +1,7 @@
 # Simple-Calculator
 A simple Calculator using Frontend elements
 <br>
+hosted at https://simplecalcnolib.netlify.app/ <br>
 Assumptions:<br>
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All Calculations return integer<br>
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Equal to key is pressed to know the result<br>
